@@ -1,10 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
-import Post from '../components/Post'
+import Post from '../components/Post-en'
 import { graphql } from 'gatsby'
-import Layout from '../components/layout'
-import Work from '../components/Work'
+import Layout from '../components/layout-en'
+import Work from '../components/Work-en'
+
 
 const siteTitle = "ShunyaEndoh - HOME"
 const siteDescription = "This is Home page!"
@@ -19,22 +20,23 @@ export default ({ data }) => {
                 </Helmet>
 
                 <div id="main">
-                <section id="one">
+
+                    <section id="one">
                         <header className="major">
                             <h2>
-                                初めまして、遠藤 駿也と申します。
+                                Hi, There. This is Shunya Endoh.
                             </h2>
                         </header>
                         <p>
-                            私は現在22歳で、出身地は東京です。<br /> 私はプログラミングにどっぷりハマっています。<br /> 最近特にGatsby.jsに興味があり、アウトプットの一環としてこのサイトを作りました。<br />もし、私に少しでも興味を持って頂けたなら下のボタンをクリックして詳細をみてください。
+                            I'm a 22-year-old Japanese. From Tokyo-Japan.<br /> My interests are mainly about programming.<br /> Now, I'm into Gatsby.js. That's why I created this web site.<br />If you want to see the details about me, click the button below.
                         </p>
                         <ul className="actions">
-                            <li><Link to="/about" className="button">詳細</Link></li>
+                            <li><Link to="/about-en" className="button">More Info</Link></li>
                         </ul>
                     </section>
 
                     <section id="two">
-                        <h2>ブログ</h2>
+                        <h2>Blog Posts ( Written in Japanese )</h2>
                         <div className="row" style={{ overflow: 'scroll', height: '20.2rem' }}>
                         {data.allMarkdownRemark.nodes.map((node) => (
                         <Post image={node.frontmatter.image} title={node.frontmatter.title} excerpt={node.excerpt} readMore={node.fields.slug} />
@@ -43,36 +45,36 @@ export default ({ data }) => {
                     </section>
 
                     <section id="three">
-                        <h2>ワーク</h2>
+                        <h2>Work</h2>
                         <div className="row" style={{ overflow: 'scroll', height: '15.2rem' }}>
-                            <Work link="https://vue-slack-prod-da6b0.web.app/" image="https://miro.medium.com/max/3920/1*Vc0m5dS9SlhieEbR6n8wFg.jpeg" title="リアルタイムチャット (Vue.js)"/>
-                            <Work link="https://www.ideathon.site/" image="https://xzxzyzyz.com/img/feature/laravel-57-released.png" title="マッチングサービス (Laravel)"/>
-                            <Work link="https://shunyaendoh1215.github.io/Portfolio-vue/" image="https://miro.medium.com/max/3920/1*Vc0m5dS9SlhieEbR6n8wFg.jpeg" title="ポートフォリオ (Vue.js)"/>
-                            <Work link="https://shunyaendoh1215.github.io/Portfolio-vue/" image="https://secure.meetupstatic.com/photos/event/5/d/4/d/600_478883885.jpeg" title="ブログ兼自己紹介 (Gatsby.js)"/>
+                            <Work link="https://vue-slack-prod-da6b0.web.app/" image="https://miro.medium.com/max/3920/1*Vc0m5dS9SlhieEbR6n8wFg.jpeg" title="Real time chat tool (Vue.js)"/>
+                            <Work link="https://www.ideathon.site/" image="https://xzxzyzyz.com/img/feature/laravel-57-released.png" title="Matching service (Laravel)"/>
+                            <Work link="https://shunyaendoh1215.github.io/Portfolio-vue/" image="https://miro.medium.com/max/3920/1*Vc0m5dS9SlhieEbR6n8wFg.jpeg" title="Portfolio (Vue.js)"/>
+                            <Work link="https://shunyaendoh1215.github.io/Portfolio-vue/" image="https://secure.meetupstatic.com/photos/event/5/d/4/d/600_478883885.jpeg" title="Portfolio + Blog (Gatsby.js)"/>
                         </div>
                     </section>
 
                     <section id="four">
-                        <h2>コンタクト</h2>
-                        <p>気軽に連絡してください。</p>
+                        <h2>Get In Touch</h2>
+                        <p>If you want to contact me, please feel free to send a message.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
                                     <div className="row uniform 50%">
-                                        <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="お名前" /></div>
-                                        <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="メールアドレス" /></div>
-                                        <div className="12u"><textarea name="message" id="message" placeholder="メッセージ" rows="4"></textarea></div>
+                                        <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                                        <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                                        <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                     </div>
                                 </form>
                                 <ul className="actions">
-                                    <li><input type="submit" value="送信" /></li>
+                                    <li><input type="submit" value="Send Message" /></li>
                                 </ul>
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        東京都-西東京市
+                                        Tokyo,Nishi-Tokyo-shi
                                     </li>
                                     <li>
                                         <h3 className="icon fa-search"><span className="label">Qiita</span></h3>
@@ -88,10 +90,12 @@ export default ({ data }) => {
                     </section>
 
                 </div>
+
             </Layout>
         )
-}
-    
+    }
+
+
 export const query = graphql`
 {
   allMarkdownRemark {
