@@ -49,7 +49,7 @@ export default ({ data }) => {
                             <Work link="https://vue-slack-prod-da6b0.web.app/" image="https://miro.medium.com/max/3920/1*Vc0m5dS9SlhieEbR6n8wFg.jpeg" title="リアルタイムチャット (Vue.js)"/>
                             <Work link="https://www.ideathon.site/" image="https://xzxzyzyz.com/img/feature/laravel-57-released.png" title="マッチングサービス (Laravel)"/>
                             <Work link="https://shunyaendoh1215.github.io/Portfolio-vue/" image="https://miro.medium.com/max/3920/1*Vc0m5dS9SlhieEbR6n8wFg.jpeg" title="ポートフォリオ (Vue.js)"/>
-                            <Work link="https://shunyaendoh1215.netlify.com/" image="https://secure.meetupstatic.com/photos/event/5/d/4/d/600_478883885.jpeg" title="ブログ兼自己紹介 (Gatsby.js)"/>
+                            <Work link="/" image="https://secure.meetupstatic.com/photos/event/5/d/4/d/600_478883885.jpeg" title="ブログ兼自己紹介 (Gatsby.js)"/>
                             <Work link="https://shunyaendoh-com.netlify.com/" image="http://d2ln1xbi067hum.cloudfront.net/course_offerings/logos/000/003/047/original/maxresdefault.jpg?1455609464" title="自己紹介ページ (HTML)"/>
                             <Work link="https://55web-a-shunyaendoh.netlify.com/" image="http://d2ln1xbi067hum.cloudfront.net/course_offerings/logos/000/003/047/original/maxresdefault.jpg?1455609464" title="席順+自己紹介ページ (HTML)"/>
                         </div>
