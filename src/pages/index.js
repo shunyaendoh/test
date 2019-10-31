@@ -6,6 +6,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Work from '../components/Work'
 
+
 const siteTitle = "ShunyaEndoh - HOME"
 const siteDescription = "This is Home page!"
 

@@ -287,7 +287,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 ( 時間がかかるのでしばらく待っていてください。 )
 `npm run dev`
 成功したら以下のように表示されます。
-(なお、`npm run dev`は開発環境においてのコンパイル方法で余計な機能が付いてきます。実際にサービスとしてデプロイする場合には`npm run production`コマンドでコンパイルしてください。)
+(なお、`npm run dev`は開発環境においてのコンパイル方法で余計な機能が付いてきます。実際にサービスとしてデプロイする場合には`npm run production`コマンドでコンパイルしてください。) <br>
 <img width="450" alt="スクリーンショット 2019-09-28 18.02.27.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/a211ba5c-1fb1-178f-8f9b-8f5c4a0c4923.png">
 
 次にサーバーを立ち上げます。
@@ -302,9 +302,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 ---
 ##参考サイト
-・ [Laravel mix事始め](https://qiita.com/ryosukes/items/24a556b9e634c183f93b)
-・ [Node.js と npm インストールとアップデート](https://qiita.com/jaxx2104/items/2277cec77850f2d83c7a)
-・ [[Laravel 5.6] Laravel 開発で Javascript を書きたいとき（Laravel Mix の使い方とか）](https://qiita.com/u-dai/items/83766b69a0e18488b005)
-・ [MacにNode.jsをインストール](https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09)
-・ [Node.js / npm をインストール (Mac環境)](https://qiita.com/PolarBear/items/62c0416492810b7ecf7c)
+-  [Laravel mix事始め](https://qiita.com/ryosukes/items/24a556b9e634c183f93b)
+-  [Node.js と npm インストールとアップデート](https://qiita.com/jaxx2104/items/2277cec77850f2d83c7a)
+-  [[Laravel 5.6] Laravel 開発で Javascript を書きたいとき（Laravel Mix の使い方とか）](https://qiita.com/u-dai/items/83766b69a0e18488b005)
+-  [MacにNode.jsをインストール](https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09)
+-  [Node.js / npm をインストール (Mac環境)](https://qiita.com/PolarBear/items/62c0416492810b7ecf7c)
 

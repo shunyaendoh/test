@@ -100,10 +100,10 @@ image: https://teams.qiita.com/wp-content/uploads/2017/12/qiita-1-300x300.png
 #####例
 `3x2`
 <br>
-`| 1 | 2 | 3 |`
-`|:-:|:-:|:-:|`
-`| a | a | a |`
-`| b | b | b |`
+`| 1 | 2 | 3 |` <br>
+`|:-:|:-:|:-:|` <br>
+`| a | a | a |` <br>
+`| b | b | b |` <br>
 *`:-:`の部分を`:--`に変えると左寄せ、`--:`で右寄せ
 
 >| 1 | 2 | 3 |
@@ -150,8 +150,8 @@ image: https://teams.qiita.com/wp-content/uploads/2017/12/qiita-1-300x300.png
 ---
 
 ###参考サイト
-・ [Qiita マークダウン記法 一覧表・チートシート](https://qiita.com/kamorits/items/6f342da395ad57468ae3#%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%80%E3%82%A6%E3%83%B3%E3%81%AE%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97)
-・ [Qiita書き方メモ](https://qiita.com/hiroyuki_hon/items/f2a779bb295fd12646ab)
-・ [Markdown記法 サンプル集](https://qiita.com/tbpgr/items/989c6badefff69377da7)
+-  [Qiita マークダウン記法 一覧表・チートシート](https://qiita.com/kamorits/items/6f342da395ad57468ae3#%E3%83%9E%E3%83%BC%E3%82%AF%E3%83%80%E3%82%A6%E3%83%B3%E3%81%AE%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97)
+-  [Qiita書き方メモ](https://qiita.com/hiroyuki_hon/items/f2a779bb295fd12646ab)
+-  [Markdown記法 サンプル集](https://qiita.com/tbpgr/items/989c6badefff69377da7) <br>
 [^1]: ビーフカレー
 

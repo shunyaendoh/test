@@ -4,6 +4,12 @@ import Helmet from 'react-helmet'
 import { Card } from 'react-bootstrap'
 import Layout from '../components/layout'
 
+import thumb01 from '../assets/images/thumbs/kinder.jpg'
+import thumb02 from '../assets/images/thumbs/elementary.jpg'
+import thumb03 from '../assets/images/thumbs/junior_high.jpg'
+import thumb04 from '../assets/images/thumbs/high.jpg'
+import thumb05 from '../assets/images/thumbs/university.jpg'
+
 class ABOUT extends React.Component {
 
     render() {
@@ -67,7 +73,10 @@ class ABOUT extends React.Component {
                                     </Card.Body>
                                 </Card>
                             </div>
-                            <div className="col-6 card-right">
+                            <div className="col-5 card-right">
+                                <div className="container">
+                                    <img src={thumb01} height="250" className="mt-3"/>
+                                </div>
                             </div>
                         </div>
                         <div className="row">
@@ -75,6 +84,9 @@ class ABOUT extends React.Component {
                         </div>
                         <div className="row">
                             <div className="col-5 card-left mr-4">
+                                <div className="container">
+                                    <img src={thumb02} height="250" className="mt-4"/>
+                                </div>
                             </div>
                             <div className="col-6 card-right ml-4 ml-lg-3">
                                 <Card border="success" style={{ width: '100%' }} className="text-center mx-auto">
@@ -103,7 +115,10 @@ class ABOUT extends React.Component {
                                     </Card.Body>
                                 </Card>
                             </div>
-                            <div className="col-6 card-right">
+                            <div className="col-5 card-right">
+                                <div className="container">
+                                    <img src={thumb03} height="250" className="mt-4"/>
+                                </div>
                             </div>
                         </div>
                         <div className="row">
@@ -111,6 +126,9 @@ class ABOUT extends React.Component {
                         </div>
                         <div className="row">
                             <div className="col-5 card-left mr-4">
+                                <div className="container">
+                                    <img src={thumb04} height="250" className="mt-4"/>
+                                </div>
                             </div>
                             <div className="col-6 card-right ml-4 ml-lg-3">
                                 <Card border="success" style={{ width: '100%' }} className="text-center mx-auto">
@@ -139,7 +157,10 @@ class ABOUT extends React.Component {
                                     </Card.Body>
                                 </Card>
                             </div>
-                            <div className="col-6 card-right">
+                            <div className="col-5 card-right">
+                                <div className="container">
+                                    <img src={thumb05} height="250" className="mt-4"/>
+                                </div>
                             </div>
                         </div>
                         <div className="row">
