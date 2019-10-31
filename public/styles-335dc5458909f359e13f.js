@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{"+eM2":function(o,c,n){},"1aU1":function(o,c,n){o.exports={cardLeft:"about-module--card-left--2Ag6b",cardRight:"about-module--card-right--3CY5x"}},wcMv:function(o,c,n){}}]);
+//# sourceMappingURL=styles-335dc5458909f359e13f.js.map
