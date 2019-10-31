@@ -48,7 +48,7 @@ brew -v
 
 を入力して実行です。 ( Homebrewのバージョンを確認するコマンドです。 )
 
-<img width="566" alt="スクリーンショット 2019-10-14 12.41.08.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/8ecb66de-a4d6-dfc4-a416-24de7d8557cb.png">
+<img width="100%" alt="スクリーンショット 2019-10-14 12.41.08.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/8ecb66de-a4d6-dfc4-a416-24de7d8557cb.png">
 
 こちらのように出れば成功です。
 
@@ -96,7 +96,7 @@ mysql -u root -p
 
 下の画像は実際の画面です。
 
-<img width="650" alt="スクリーンショット 2019-10-14 12.51.13.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/c3c0aff3-98bf-123a-d168-e8c853d7161f.png">
+<img width="100%" alt="スクリーンショット 2019-10-14 12.51.13.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/c3c0aff3-98bf-123a-d168-e8c853d7161f.png">
 
 ## Mysqlを操作してみよう
 

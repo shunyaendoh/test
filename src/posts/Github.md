@@ -44,7 +44,7 @@ Host github
 
 `ssh -T <HOST>` => ssh接続できているかの確認
 
-<img width="682" alt="スクリーンショット 2019-10-08 10 24 24" src="https://user-images.githubusercontent.com/55518345/66364083-14491200-e9bb-11e9-9e58-a74a26f5567c.png">
+<img width="100%" alt="スクリーンショット 2019-10-08 10 24 24" src="https://user-images.githubusercontent.com/55518345/66364083-14491200-e9bb-11e9-9e58-a74a26f5567c.png">
 
 ## Gitのコンフィグファイルを編集しよう
 

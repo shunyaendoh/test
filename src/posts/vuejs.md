@@ -54,7 +54,7 @@ vue --version
 ```
 
 このコマンドでインストールが成功したか確認します。
-<img width="194" alt="スクリーンショット 2019-10-16 0.10.31.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/8ef602ec-b147-d4a9-e40f-3d7fda8f32df.png">
+<img width="100%" alt="スクリーンショット 2019-10-16 0.10.31.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/8ef602ec-b147-d4a9-e40f-3d7fda8f32df.png">
 
 実際の画面です。
 このようにバージョンが表示されていれば成功です。
@@ -70,13 +70,13 @@ vue create <プロジェクト名>
 こちらのコマンドで作成です。
 
 なお、上記のコマンドを実行すると
-<img width="228" alt="スクリーンショット 2019-10-16 0.15.40.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/b4d429dc-d0b9-dbfb-79fc-a60b1df4970f.png">
+<img width="100%" alt="スクリーンショット 2019-10-16 0.15.40.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/b4d429dc-d0b9-dbfb-79fc-a60b1df4970f.png">
 このような画面が出てきますが今回は`default`の状態にし`エンターキー`を押してください。
 ( `↑↓キー`で移動できます。`)
 
 完了したら以下のような画面になっているはずです。
 
-<img width="839" alt="スクリーンショット 2019-10-16 7.34.10.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/ba0db433-1a20-9065-79fe-9996df57f88d.png">
+<img width="100%" alt="スクリーンショット 2019-10-16 7.34.10.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/ba0db433-1a20-9065-79fe-9996df57f88d.png">
 
 ```
 cd <プロジェクト名>
@@ -177,7 +177,7 @@ npm run serve
 コマンドを入力して、
 `localhost:8001`にアクセスしてください。
 以下のようになったら成功です。
-<img width="839" alt="スクリーンショット 2019-10-16 8.17.07.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/99434327-7598-bf65-d329-c58afa185d4f.png">
+<img width="100%" alt="スクリーンショット 2019-10-16 8.17.07.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/99434327-7598-bf65-d329-c58afa185d4f.png">
 
 なおQIITAのアイコンはFont Awesomeにはないので、
 [Font Awesome で Qiitaロゴっぽいアイコンを表現](https://qiita.com/hkusu/items/fda8d8178dd693f95f3c)
@@ -267,7 +267,7 @@ npm run serve
 
 コマンドでサーバーを立ち上げ確認しましょう。
 
-<img width="839" alt="スクリーンショット 2019-10-16 9.57.27.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/0c6706d3-b3e7-9a1b-5fbb-002617ac4f23.png">
+<img width="100%" alt="スクリーンショット 2019-10-16 9.57.27.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/0c6706d3-b3e7-9a1b-5fbb-002617ac4f23.png">
 
 無事にChart.jsを導入できましたか？
 
@@ -291,7 +291,7 @@ vue add bootstrap-vue
 
 `class="text-sccess"`に変更してみましょう。
 
-<img width="839" alt="スクリーンショット 2019-10-16 12.13.25.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/21b22857-cbbb-4055-4d65-2dff3822cf15.png">
+<img width="100%" alt="スクリーンショット 2019-10-16 12.13.25.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/21b22857-cbbb-4055-4d65-2dff3822cf15.png">
 
 twitterのマークが緑色になりました！
 
@@ -299,5 +299,5 @@ twitterのマークが緑色になりました！
 
 今回作ったサイトは[こちら](https://shunyaendoh1215.github.io/Portfolio-vue/)です。
 
-<img width="800" alt="スクリーンショット 2019-10-15 22.21.32.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/7ea1dc4a-5b2c-23f3-0737-6a904b7cf6ee.png">
+<img width="100%" alt="スクリーンショット 2019-10-15 22.21.32.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/7ea1dc4a-5b2c-23f3-0737-6a904b7cf6ee.png">
 

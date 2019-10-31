@@ -20,7 +20,7 @@ const post = data.markdownRemark
             <header className="major">
               <h1>{post.frontmatter.title}</h1>
             </header>
-            <div className="container">
+            <div className="container" style={{width: '100%'}}>
               <div className="row justify-content-md-center">
                 <div dangerouslySetInnerHTML={{ __html: post.html }} className="col-12"/>
               </div>

@@ -56,7 +56,7 @@ B. 公式サイトからインストーラをダウンロードしてくる方�
 
 無事にインストールが出来たら`brew -v`コマンドを打ってみましょう。( Homebrewのバージョンを確認するコマンドです。 )
 
-<img width="569" alt="スクリーンショット 2019-09-28 15.03.27.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/1eef30c5-f7df-f11f-5aab-a0435478c146.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 15.03.27.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/1eef30c5-f7df-f11f-5aab-a0435478c146.png">
 
 このように「Homebrew ○.○.○○」と表示されていれば成功です。
 
@@ -73,7 +73,7 @@ brew install nodebrew
 
 インストールが完了したら`nodebrew -v`コマンドを打ってみましょう。( nodebrewのバージョンを確認するコマンドです。 )
 
-<img width="569" alt="スクリーンショット 2019-09-28 15.15.12.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/b9a591cc-fae8-1317-073f-ec5ce0babba2.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 15.15.12.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/b9a591cc-fae8-1317-073f-ec5ce0babba2.png">
 
 何やらたくさん出てきましたが一番上に「nodebrew ○.○.○」と表示されていれば成功です。 ( なお、他に表示されているのは使い方の例や使えるコマンド集です。いわば説明書ですね。 )
 
@@ -97,7 +97,7 @@ nodebrew install-binary latest
 インストールが完了したら`nodebrew ls`コマンドを実行してください。
 このコマンドはインストールされたnodeのリストを表示するコマンドです。
 
-<img width="569" alt="スクリーンショット 2019-09-28 15.28.50.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/cc7ca67b-ba10-6b38-c36d-a00ef9c720f3.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 15.28.50.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/cc7ca67b-ba10-6b38-c36d-a00ef9c720f3.png">
 
 このように「v○.○.○」と表示されていればインストール成功です。
 その下に`current: none`と出ているのはインストールした直後は有効化されていない為です。
@@ -111,7 +111,7 @@ nodebrew use v○.○.○
 コマンドで有効化します。( ○はお使いのバージョンを入力してください。 )
 もう一度`nodebrew ls`コマンドを実行すると、
 
-<img width="569" alt="スクリーンショット 2019-09-28 15.27.56.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/800d1597-513c-b36b-1cbb-ddc31b2cc782.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 15.27.56.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/800d1597-513c-b36b-1cbb-ddc31b2cc782.png">
 
 インストールしたバージョンのnodeが設定されました。
 
@@ -128,7 +128,7 @@ echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bash_profile
 このコマンドで再読み込みさせます。
 最後に`node -v`コマンドを実行してください。
 
-<img width="569" alt="スクリーンショット 2019-09-28 15.44.03.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/ba7581a6-5cba-c93f-3486-4986d5df4ee9.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 15.44.03.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/ba7581a6-5cba-c93f-3486-4986d5df4ee9.png">
 
 このように「v○○.○○.○」と表示されていれば成功です。
 
@@ -162,7 +162,7 @@ composer create-project --prefer-dist laravel/laravel {プロジェクト名} 5.
 こちらのコマンドを打ってプロジェクトを作成してください。
 ( 時間がかかるのでしばらく待ちましょう。 )
 
-<img width="569" alt="スクリーンショット 2019-09-28 16.11.29.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/530c1120-a038-8d90-5426-554d1a29a622.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 16.11.29.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/530c1120-a038-8d90-5426-554d1a29a622.png">
 
 無事に作成が完了すると、「○○○○ successfully」みたいな文字列が表示されて$マークが現れます。
 
@@ -189,7 +189,7 @@ vscodeでターミナルが使えるようになります。
 その中に`app.js`と`sample.js`を作成してください
 (resources<assets<js<app.js,sample.js)
 
-<img width="201" alt="スクリーンショット 2019-09-28 17.01.32.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/e4df56c6-4b30-c43f-17b7-87b1bbaa74e5.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 17.01.32.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/e4df56c6-4b30-c43f-17b7-87b1bbaa74e5.png">
 
 そして、sample.jsを開いて以下のように記入してください。
 
@@ -244,7 +244,7 @@ jsファイルを読み込む準備が出来たので読み込みたいページ
 `php artisan make:auth`
 すると`views/layouts`フォルダが作成されます。
 
-<img width="201" alt="スクリーンショット 2019-09-28 17.46.19.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/a72cc74e-b881-2027-1b60-7244a42a7b15.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 17.46.19.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/a72cc74e-b881-2027-1b60-7244a42a7b15.png">
 
 sample.blade.phpを開いてください。
 そして、以下のように記入してください。
@@ -288,15 +288,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 `npm run dev`
 成功したら以下のように表示されます。
 (なお、`npm run dev`は開発環境においてのコンパイル方法で余計な機能が付いてきます。実際にサービスとしてデプロイする場合には`npm run production`コマンドでコンパイルしてください。) <br>
-<img width="450" alt="スクリーンショット 2019-09-28 18.02.27.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/a211ba5c-1fb1-178f-8f9b-8f5c4a0c4923.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 18.02.27.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/a211ba5c-1fb1-178f-8f9b-8f5c4a0c4923.png">
 
 次にサーバーを立ち上げます。
 `php artisan serve`コマンドを実行してください。
-<img width="440" alt="スクリーンショット 2019-09-28 18.05.14.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/6ddfdd79-96fa-e84b-78d6-d4be21b81288.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 18.05.14.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/6ddfdd79-96fa-e84b-78d6-d4be21b81288.png">
 
 ### [http://127.0.0.1:8000](http://127.0.0.1:8000)へアクセス
 
-<img width="447" alt="スクリーンショット 2019-09-28 18.09.51.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/e645b09e-2e3b-046f-5405-e2b4f002ad42.png">
+<img width="100%" alt="スクリーンショット 2019-09-28 18.09.51.png" src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/489303/e645b09e-2e3b-046f-5405-e2b4f002ad42.png">
 
 無事にアラートが表示されましたか？
 

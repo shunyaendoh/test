@@ -62,7 +62,7 @@ class ABOUT extends React.Component {
                             <div className="border-right col-6 ml-3" style={{ height: '5rem' }}></div>
                         </div>
                         <div className="row">
-                            <div className="col-6 card-left ml-3">
+                            <div className="col-sm-6 card-left ml-3">
                                 <Card border="success" style={{ width: '100%' }} className="text-center mx-auto">
                                     <Card.Header>幼稚園</Card.Header>
                                     <Card.Body>
@@ -73,7 +73,7 @@ class ABOUT extends React.Component {
                                     </Card.Body>
                                 </Card>
                             </div>
-                            <div className="col-5 card-right">
+                            <div className="col-5 card-right ml-3 d-sm-inline d-none">
                                 <div className="container">
                                     <img src={thumb01} height="250" className="mt-3"/>
                                 </div>
@@ -83,12 +83,12 @@ class ABOUT extends React.Component {
                             <div className="border-right col-6 ml-3" style={{ height: '5rem' }}></div>
                         </div>
                         <div className="row">
-                            <div className="col-5 card-left mr-4">
+                            <div className="col-5 card-left mr-4 d-sm-inline d-none">
                                 <div className="container">
                                     <img src={thumb02} height="250" className="mt-4"/>
                                 </div>
                             </div>
-                            <div className="col-6 card-right ml-4 ml-lg-3">
+                            <div className="col-sm-6 card-right ml-4 ml-lg-3">
                                 <Card border="success" style={{ width: '100%' }} className="text-center mx-auto">
                                     <Card.Header>小学校</Card.Header>
                                     <Card.Body>
@@ -104,7 +104,7 @@ class ABOUT extends React.Component {
                             <div className="border-right col-6 ml-3" style={{ height: '5rem' }}></div>
                         </div>
                         <div className="row">
-                            <div className="col-6 card-left ml-3">
+                            <div className="col-sm-6 card-left ml-3">
                                 <Card border="success" style={{ width: '100%' }} className="text-center mx-auto">
                                     <Card.Header>中学校</Card.Header>
                                     <Card.Body>
@@ -115,7 +115,7 @@ class ABOUT extends React.Component {
                                     </Card.Body>
                                 </Card>
                             </div>
-                            <div className="col-5 card-right">
+                            <div className="col-5 card-right d-sm-inline d-none">
                                 <div className="container">
                                     <img src={thumb03} height="250" className="mt-4"/>
                                 </div>
@@ -125,12 +125,12 @@ class ABOUT extends React.Component {
                             <div className="border-right col-6 ml-3" style={{ height: '5rem' }}></div>
                         </div>
                         <div className="row">
-                            <div className="col-5 card-left mr-4">
+                            <div className="col-5 card-left mr-4 d-sm-inline d-none">
                                 <div className="container">
                                     <img src={thumb04} height="250" className="mt-4"/>
                                 </div>
                             </div>
-                            <div className="col-6 card-right ml-4 ml-lg-3">
+                            <div className="col-sm-6 card-right ml-4 ml-lg-3">
                                 <Card border="success" style={{ width: '100%' }} className="text-center mx-auto">
                                     <Card.Header>高校</Card.Header>
                                     <Card.Body>
@@ -146,7 +146,7 @@ class ABOUT extends React.Component {
                             <div className="border-right col-6 ml-3" style={{ height: '5rem' }}></div>
                         </div>
                         <div className="row">
-                            <div className="col-6 card-left ml-3">
+                            <div className="col-sm-6 card-left ml-3">
                                 <Card border="success" style={{ width: '100%' }} className="text-center mx-auto">
                                     <Card.Header>大学</Card.Header>
                                     <Card.Body>
@@ -157,7 +157,7 @@ class ABOUT extends React.Component {
                                     </Card.Body>
                                 </Card>
                             </div>
-                            <div className="col-5 card-right">
+                            <div className="col-5 card-right d-sm-inline d-none">
                                 <div className="container">
                                     <img src={thumb05} height="250" className="mt-4"/>
                                 </div>

@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap'
 import { Link } from 'gatsby'
 
 const PostEn = (props) => (
-  <Card className="col-3 pl-0 px-2 pt-2 mx-4 mb-3">
+  <Card className="col-7 col-sm-3 pl-0 px-2 pt-2 mx-sm-4 mb-3 mx-auto">
     <div className="row">
       <Card.Img variant="top" src={props.image} className="col-12" style={{height: '10rem'}}/>
     <Card.Body>
