@@ -3,9 +3,7 @@ module.exports = {
     title: `shunyaendoh1215 - portfolio`,
     author: `Shunya Endoh`,
     description: `A portfolio site created by shunyaendoh1215.`,
-    keywords: `gatsby, gatsbyjs blog, gatsby bootstrap, shunyaendoh, shunya endoh`,
-    image: `/src/assets/images/thumbs/university.jpg`,
-    url: `https://shunyaendoh.work/`
+    keywords: `gatsby, gatsbyjs blog, gatsby bootstrap, shunyaendoh, shunya endoh`
   },
   plugins: [
     'gatsby-plugin-react-helmet',
