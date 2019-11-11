@@ -2,15 +2,18 @@ module.exports = {
   siteMetadata: {
     title: `shunyaendoh1215 - portfolio`,
     author: `Shunya Endoh`,
-    description: `A portfolio site created by shunyaendoh1215.`
+    description: `A portfolio site created by shunyaendoh1215.`,
+    keywords: `gatsby, gatsbyjs blog, gatsby bootstrap, shunyaendoh, shunya endoh`,
+    image: `/src/assets/images/thumbs/university.jpg`,
+    url: `https://shunyaendoh.work/`
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'shunya_endoh',
-        short_name: 'shunya_endoh',
+        name: 'shunyaendoh',
+        short_name: 'shunyaendoh',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
